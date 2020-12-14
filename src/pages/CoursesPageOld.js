@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import CourseRowView from "../components/CourseRowView";
 
 const coursesData = [
     {
@@ -134,12 +133,40 @@ const coursesData = [
 
 
 const CoursesPage = () => {
-
+    let [isModalView, onModalView] = useState(false)
 
     const courses = coursesData.map(
        (course, index) => {
-           return <CourseRowView  key={index} course={course}/>
-       })
+           return (
+               <>
+               <tr key={index}>
+                   <th scope="row">{index+1}</th>
+                   <td>{course.name}</td>
+                   <td>{course.rightНolder}</td>
+                   <td>
+                       <select className="form-control">
+                       {course.session.map(
+                           (session,index) => <option key={index}>{session.name}</option>
+                           )}
+                       </select>
+                   </td>
+                   <td>
+                       <button className="btn btn-primary">Настройки</button>
+                   </td>
+               </tr>
+               <tr className="table-secondary">
+                   <td colspan="5">
+
+                           {course.actions.map(
+                               (action, index) => <button key={index} className="btn btn-primary">{action}</button>
+                           )}
+
+                   </td>
+               </tr>
+                   </>
+           )
+       }
+   )
 
 
   return (
@@ -147,7 +174,7 @@ const CoursesPage = () => {
         <h2>Мои курсы</h2>
             <table className="table">
                 <thead>
-                <tr className="table-primary">
+                <tr>
                     <th scope="col"></th>
                     <th scope="col">Название курса</th>
                     <th scope="col">Правообладатель</th>
