@@ -14,7 +14,7 @@ const DevReqPage = () => {
                 <small  className="form-text text-muted"></small>
             </div>
             <div className="form-group">
-                <label>Наименоание организации/Университет/Институт</label>
+                <label>Наименование организации/Университет/Институт</label>
                 <input type="email" className="form-control"/>
                 <small className="form-text text-muted"></small>
             </div>
@@ -53,7 +53,7 @@ const DevReqPage = () => {
                 <small className="form-text text-muted"></small>
             </div>
             <div className="form-group">
-                <label>Краткое опиание курса</label>
+                <label>Краткое описание курса</label>
                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 <small className="form-text text-muted"></small>
             </div>
