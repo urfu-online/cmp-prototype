@@ -19,6 +19,7 @@ const CourseSettingsView = ({course}) => {
                 <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 <small className="form-text text-muted"></small>
             </div>
+            <button type="submit" className="btn btn-primary">Сохранить</button>
         </>
     )
 }

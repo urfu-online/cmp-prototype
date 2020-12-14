@@ -48,7 +48,7 @@ const LoginPage = (props) => {
                             </label></div>
                         </div>
 
-                        <button className="primaryAction btn btn-primary" type="submit" onClick={login}>Войти</button>
+                        <button className="primaryAction btn btn-primary mr-3" type="submit" onClick={login}>Войти</button>
                         <a className="button secondaryAction" href="/accounts/password/reset/">Забыли пароль?</a>
             </div>
         </div>
