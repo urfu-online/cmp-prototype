@@ -1,14 +1,14 @@
 import React from 'react'
 
-const AboutPage = () => {
+const PricePage = () => {
   return (
         <>
             <div className="container">
-            About page
+                PricePage page
             </div>
 
         </>
   )
 }
 
-export default AboutPage
+export default PricePage
