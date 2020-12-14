@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 const DevReqPage = () => {
     return (
         <>
-            <div className="article mt-5">
+            <div className="article">
                 <h2>Заявка на разработку курса</h2>
                 <p>В условиях оперативного перехода на дистанционное обучение УрФУ предлагает вам актуальный и не
                     требующий специальных навыков инструмент для создания онлайн-курсов – <a
@@ -19,7 +19,6 @@ const DevReqPage = () => {
                 <p>После этого вам будет предоставлен доступ для работы на платформе, и вы сможете либо самостоятельно
                     перевести ваш курс в онлайн-формат, либо воспользоваться профессиональной помощью сотрудников Центра развития онлайн обучения.</p>
             </div>
-            <div className="mb-5">
             <div className="form-group">
                 <label>Название курса</label>
                 <input type="email" className="form-control"/>
@@ -70,7 +69,6 @@ const DevReqPage = () => {
                 <small className="form-text text-muted"></small>
             </div>
             <button type="submit" className="btn btn-primary">Отправить заявку</button>
-            </div>
         </>
     )
 }

@@ -24,7 +24,7 @@ function App () {
 
       <DataContext.Provider value={{ userRole, changeUserRole }}>
           <Nav/>
-          <div className="container">
+          <div className="container mt-5 mb-5">
               <Switch>
                   <Route path="/about">
                       <AboutPage />
@@ -54,7 +54,6 @@ function App () {
                       <СontractPage />
                   </Route>
                   <Route path="/courses">
-
                       <CoursesPage />
                   </Route>
                   <Route path="/">
