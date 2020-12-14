@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b5d4a86-b78b-435c-a62c-d01502c54611" name="Default Changelist" comment="start">
-      <change afterPath="$PROJECT_DIR$/src/pages/AgreementPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/FuncDescPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PricePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/СontractPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1b5d4a86-b78b-435c-a62c-d01502c54611" name="Default Changelist" comment="правки 2">
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607921412567</updated>
       <workItem from="1607921415610" duration="32000" />
-      <workItem from="1607921478639" duration="1180000" />
+      <workItem from="1607921478639" duration="1369000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1607921705639</created>
@@ -76,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607921705639</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="правки 2">
+      <created>1607922701329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607922701329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="правки 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="правки 2" />
   </component>
 </project>

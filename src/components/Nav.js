@@ -47,9 +47,9 @@ const Nav = () => {
                             </a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <NavLink className="dropdown-item" to="/price">Прайс</NavLink>
-                                <NavLink className="dropdown-item" to="#"> Договор </NavLink>
-                                <NavLink className="dropdown-item" to="#"> Соглашение </NavLink>
-                                <NavLink className="dropdown-item" to="#"> Описание функций для партнера</NavLink>
+                                <NavLink className="dropdown-item" to="/contract"> Договор </NavLink>
+                                <NavLink className="dropdown-item" to="/agreement"> Соглашение </NavLink>
+                                <NavLink className="dropdown-item" to="/function-desc"> Описание функций для партнера</NavLink>
                             </div>
                         </li>
                         </>

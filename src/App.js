@@ -43,13 +43,13 @@ function App () {
                   <Route path="/price">
                       <PricePage />
                   </Route>
-                  <Route path="/price">
+                  <Route path="/agreement">
                       <AgreementPage />
                   </Route>
-                  <Route path="/price">
+                  <Route path="/function-desc">
                       <FuncDescPage />
                   </Route>
-                  <Route path="/price">
+                  <Route path="/contract">
                       <СontractPage />
                   </Route>
                   <Route path="/">
