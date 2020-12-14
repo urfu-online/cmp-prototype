@@ -9,6 +9,10 @@ import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignupPage'
 import DevReqPage from './pages/DevReqPage'
 import SupportReqPage from "./pages/SupportReqPage";
+import PricePage from "./pages/PricePage";
+import AgreementPage from "./pages/AgreementPage";
+import FuncDescPage from "./pages/FuncDescPage";
+import СontractPage from "./pages/СontractPage";
 
 export const DataContext = React.createContext({})
 
@@ -21,12 +25,12 @@ function App () {
           <Nav/>
           <div className="container">
               <Switch>
-                <Route path="/about">
-                  <AboutPage />
-                </Route>
-                <Route path="/login">
-                  <LoginPage />
-                </Route>
+                  <Route path="/about">
+                      <AboutPage />
+                  </Route>
+                  <Route path="/login">
+                      <LoginPage />
+                  </Route>
                   <Route path="/signup">
                       <SignupPage />
                   </Route>
@@ -36,9 +40,21 @@ function App () {
                   <Route path="/support-req">
                       <SupportReqPage />
                   </Route>
-                <Route path="/">
-                  <HomePage />
-                </Route>
+                  <Route path="/price">
+                      <PricePage />
+                  </Route>
+                  <Route path="/price">
+                      <AgreementPage />
+                  </Route>
+                  <Route path="/price">
+                      <FuncDescPage />
+                  </Route>
+                  <Route path="/price">
+                      <СontractPage />
+                  </Route>
+                  <Route path="/">
+                      <HomePage />
+                  </Route>
               </Switch>
           </div>
       </DataContext.Provider>

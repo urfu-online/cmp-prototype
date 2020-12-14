@@ -46,7 +46,7 @@ const Nav = () => {
                                 Шаблоны документов
                             </a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <NavLink className="dropdown-item" to="#">Прайс</NavLink>
+                                <NavLink className="dropdown-item" to="/price">Прайс</NavLink>
                                 <NavLink className="dropdown-item" to="#"> Договор </NavLink>
                                 <NavLink className="dropdown-item" to="#"> Соглашение </NavLink>
                                 <NavLink className="dropdown-item" to="#"> Описание функций для партнера</NavLink>

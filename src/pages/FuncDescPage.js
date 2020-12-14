@@ -1,14 +1,14 @@
 import React from 'react'
 
-const AboutPage = () => {
+const FuncDescPage = () => {
   return (
         <>
             <div className="container">
-            About page
+                FuncDesc page
             </div>
 
         </>
   )
 }
 
-export default AboutPage
+export default FuncDescPage
