@@ -25,10 +25,16 @@ const Nav = () => {
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/about">О сервисе</NavLink>
                     </li>
-                    <div className="dropdown-divider"></div>
                     {
                         isView &&
                             <>
+                        <div className="dropdown-divider"></div>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/courses">Мои курсы</NavLink>
+                        </li>
+                        </>
+                    }
+                    <div className="dropdown-divider"></div>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" id="navbarDropdown" role="button"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -52,8 +58,7 @@ const Nav = () => {
                                 <NavLink className="dropdown-item" to="/function-desc"> Описание функций для партнера</NavLink>
                             </div>
                         </li>
-                        </>
-                        }
+
 
                     {
                         !isView &&
