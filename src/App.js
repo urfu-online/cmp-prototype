@@ -54,6 +54,7 @@ function App () {
                       <СontractPage />
                   </Route>
                   <Route path="/courses">
+
                       <CoursesPage />
                   </Route>
                   <Route path="/">
