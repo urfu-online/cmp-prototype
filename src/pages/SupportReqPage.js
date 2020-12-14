@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 const DevReqPage = () => {
     return (
         <>
-            <div className="article mt-5">
+            <div className="article">
                 <h2>Заявки на размещение и сопровождение курса</h2>
             </div>
             <div className="mb-5">
