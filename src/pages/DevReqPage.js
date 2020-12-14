@@ -12,15 +12,12 @@ const DevReqPage = () => {
                         target="_blank">courses.openedu.urfu.ru</a>. Данная платформа проста в использовании, способна
                     поддерживать все современные инструменты онлайн-обучения и позволит максимально качественно обучать
                     неограниченное число слушателей любых учебных учреждений.</p>
-                <h3>Для создания вашего курса вам необходимо:</h3>
-                <ol>
-                    <li>Зарегистрироваться на странице <a title="Регистрация на Портале Открытый университет УрФУ"
-                                                          href="https://courses.openedu.urfu.ru/register"
-                                                          target="_blank">courses.openedu.urfu.ru/register</a></li>
-                    <li>Отправить заявку на создание курса через <a href="#form">форму</a></li>
-                </ol>
+                <h3>Для создания вашего курса вам необходимо отправить заявку</h3>
+
+
+
                 <p>После этого вам будет предоставлен доступ для работы на платформе, и вы сможете либо самостоятельно
-                    перевести ваш курс в онлайн-формат, либо воспользоваться профессиональной помощью сотрудников Открытого университета УрФУ.</p>
+                    перевести ваш курс в онлайн-формат, либо воспользоваться профессиональной помощью сотрудников Центра развития онлайн обучения.</p>
             </div>
             <div className="form-group">
                 <label>Название курса</label>
@@ -57,7 +54,7 @@ const DevReqPage = () => {
                 <div className="form-check">
                     <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
                            value="option2"/>
-                        <label className="form-check-label" htmlFor="inlineRadio2">Технические специалисты Открытого университета УрФУ</label>
+                        <label className="form-check-label" htmlFor="inlineRadio2">Технические специалисты Центра развития онлайн обучения</label>
                 </div>
                 <small className="form-text text-muted"></small>
             </div>
