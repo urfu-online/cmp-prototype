@@ -1,0 +1,60 @@
+//.container {
+//  padding-top: 41px!important;
+//}
+
+
+
+@import "custom_bootstrap_vars";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "bootswatch";
+@import "navbar-fixed-left";
+
+
+
+// project specific CSS goes here
+
+////////////////////////////////
+		//Variables//
+////////////////////////////////
+
+// Alert colors
+
+$white: #fff;
+$mint-green: #d6e9c6;
+$black: #000;
+$pink: #f2dede;
+$dark-pink: #eed3d7;
+$red: #b94a48;
+
+////////////////////////////////
+		//Alerts//
+////////////////////////////////
+
+// bootstrap alert CSS, translated to the django-standard levels of
+// debug, info, success, warning, error
+
+.alert-debug {
+  background-color: $white;
+  border-color: $mint-green;
+  color: $black;
+}
+
+.alert-error {
+  background-color: $pink;
+  border-color: $dark-pink;
+  color: $red;
+}
+
+
+.navbar-brand img {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 1.2rem ;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
