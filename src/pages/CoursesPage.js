@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const coursesData = [
     {
@@ -133,7 +133,9 @@ const coursesData = [
 
 
 const CoursesPage = () => {
-   const courses = coursesData.map(
+    let [isModalView, onModalView] = useState(false)
+
+    const courses = coursesData.map(
        (course, index) => {
            return (
                <tr key={index}>
@@ -143,13 +145,13 @@ const CoursesPage = () => {
                    <td>
                        <select className="form-control">
                        {course.session.map(
-                           session => <option>{session.name}</option>
+                           (session,index) => <option key={index}>{session.name}</option>
                            )}
                        </select>
                    </td>
                    <td>
                        {course.actions.map(
-                               action => <button className="btn btn-primary">{action}</button>
+                           (action, index) => <button key={index} className="btn btn-primary">{action}</button>
                        )}
                    </td>
                </tr>
@@ -161,7 +163,7 @@ const CoursesPage = () => {
   return (
         <>
         <h2>Мои курсы</h2>
-            <table className="table table-sm table-dark">
+            <table className="table">
                 <thead>
                 <tr>
                     <th scope="col"></th>
@@ -177,6 +179,25 @@ const CoursesPage = () => {
                 }
                 </tbody>
             </table>
+            <div className="modal fade show">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h5 className="modal-title" id="staticBackdropLabel">Modal title</h5>
+                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div className="modal-body">
+                            ...
+                        </div>
+                        <div className="modal-footer">
+                            <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" className="btn btn-primary">Understood</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </>
   )
 }
