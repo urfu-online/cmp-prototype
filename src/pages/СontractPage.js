@@ -4,7 +4,7 @@ const СontractPage = () => {
   return (
         <>
             <div className="container">
-            About page
+                Сontract page
             </div>
 
         </>
