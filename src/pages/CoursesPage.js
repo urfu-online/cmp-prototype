@@ -7,7 +7,7 @@ const coursesData = [
         rightНolder: 'Урфу',
         session: [
             {
-                name: 'сессия 1',
+                name: 'Сессия 1',
                 url: 'dsdfsdf'
             }
         ],
@@ -25,7 +25,7 @@ const coursesData = [
         rightНolder: 'Урфу',
         session: [
             {
-                name: 'сессия 1',
+                name: 'Сессия 2',
                 url: 'dsdfsdf'
             }
         ],
@@ -43,7 +43,7 @@ const coursesData = [
         rightНolder: 'Урфу',
         session: [
             {
-                name: 'сессия 1',
+                name: 'Сессия 3',
                 url: 'dsdfsdf'
             }
         ],
@@ -57,11 +57,11 @@ const coursesData = [
         ]
     },
     {
-        name: 'Инженерная механика',
+        name: 'Основы проектоной деятельноси',
         rightНolder: 'Урфу',
         session: [
             {
-                name: 'сессия 1',
+                name: 'Сессия 1',
                 url: 'dsdfsdf'
             }
         ],
@@ -75,11 +75,11 @@ const coursesData = [
         ]
     },
     {
-        name: 'Инженерная механика',
+        name: 'Теплотехника',
         rightНolder: 'Урфу',
         session: [
             {
-                name: 'сессия 1',
+                name: 'Сессия 1',
                 url: 'dsdfsdf'
             }
         ],
@@ -93,11 +93,11 @@ const coursesData = [
         ]
     },
     {
-        name: 'Инженерная механика',
+        name: 'Прикладное програмирование на языке Python',
         rightНolder: 'Урфу',
         session: [
             {
-                name: 'сессия 1',
+                name: 'Сессия 1',
                 url: 'dsdfsdf'
             }
         ],
@@ -110,25 +110,6 @@ const coursesData = [
             'import'
         ]
     },
-    {
-        name: 'Инженерная механика',
-        rightНolder: 'Урфу',
-        session: [
-            {
-                name: 'сессия 1',
-                url: 'dsdfsdf'
-            }
-        ],
-        actions: [
-            'settings',
-            'reports',
-            'analytics',
-            'enrollments',
-            'export',
-            'import'
-        ]
-    },
-
 ]
 
 

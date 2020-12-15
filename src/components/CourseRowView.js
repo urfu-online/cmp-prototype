@@ -5,6 +5,7 @@ import CourseEnrollmentsView from "./CourseEnrollmentsView";
 import CourseReportsView from "./CourseReportsView";
 import CourseExportView from "./CourseExportView";
 import CourseImportView from "./CourseImportView";
+import {tabsName} from "../settings/tabs"
 
 const CourseRowView = ({course}) => {
     let [isSettingsView, onSettingsView] = useState(false)
@@ -17,11 +18,10 @@ const CourseRowView = ({course}) => {
             <td>{course.name}</td>
             <td>{course.rightНolder}</td>
             <td>
-                <select className="form-control">
                     {course.session.map(
-                        (session,index) => <option key={index}>{session.name}</option>
+                        (session,index) => <p key={index}>{session.name}</p>
                     )}
-                </select>
+
             </td>
             <td>
                 <button className="btn btn-primary" onClick={() =>onSettingsView(!isSettingsView)}>Настройки</button>
@@ -40,7 +40,7 @@ const CourseRowView = ({course}) => {
                                     onClick={() => onTabName(action)}
                                     style={{cursor: 'pointer'}}
                                 >
-                                    {action}
+                                    {tabsName[action]}
                                 </a>
                         )}
                         </nav>
